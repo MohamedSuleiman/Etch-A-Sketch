@@ -15,4 +15,10 @@ function init() {
     }
 }
 
+
+element.addEventListener("mouseover",(e) => {
+    const element = e.target;
+    element.style.background = "blue";
+});
+
 init();

@@ -5,6 +5,7 @@
 .grid {
     background-color: lightgray;
 }
+
 .grid:hover {
     background-color: red;
 }
