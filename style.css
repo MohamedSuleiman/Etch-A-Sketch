@@ -1,3 +1,10 @@
  * {
     box-sizing: border-box;
 }
+
+.grid {
+    background-color: lightgray;
+}
+.grid:hover {
+    background-color: red;
+}

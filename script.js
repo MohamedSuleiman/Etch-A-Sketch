@@ -7,8 +7,8 @@ function init() {
             const div = document.createElement("div");
             div.style.width = "50px";
             div.style.height = "50px";
-            div.style.background = "lightgray";
             div.style.border = "2px solid black";
+            div.classList.add("grid");
             el.appendChild(div);
         }
         element.appendChild(el);
