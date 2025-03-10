@@ -2,6 +2,12 @@ const element = document.getElementById("container");
 let startingInt = 16;
 height = element.clientHeight / startingInt;
 
+
+
+function getColorVal() {
+    return Math.floor(Math.random() * 256);
+}
+
 function init(num, height) {
     for (let i = 0; i < num; i++) {
         const el = document.createElement("div");
@@ -22,7 +28,7 @@ function init(num, height) {
 element.addEventListener("mouseover",(e) => {
     const element = e.target;
     if (element.classList.contains("grid")) {
-        element.style.background = "blue";
+        element.style.background = `rgb(${getColorVal()},${getColorVal()},${getColorVal()})`;
     }
 });
 
